@@ -42,7 +42,7 @@ const app = createApp({
         //取得Token
         const token = document.cookie.replace(/(?:(?:^|.*;\s*)hexToken\s*=\s*([^;]*).*$)|^.*$/, '$1');
         //有正確取得token，放入headers
-        console.log(token);
+        //console.log(token);
         axios.defaults.headers.common.Authorization = token;
         //如何夾帶驗證資訊過去呢？下次發送 axios 預設把 token 內容直接加到 headers 裡面
         this.loginCheck();//執行驗證
