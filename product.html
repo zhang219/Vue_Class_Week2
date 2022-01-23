@@ -59,8 +59,8 @@
                                 </td>
                                 <td width="150">
                                     <div class="form-check form-switch">
-                                        <input class="form-check-input" type="checkbox" v-on:id="item.id" checked>
-                                        <label class="form-check-label" v-on:for="item.id"></label>
+                                        <input class="form-check-input" type="checkbox" v-bind:id="item.id" v-model="item.is_enabled">
+                                        <label class="form-check-label" v-bind:for="item.id"></label>
                                         <span v-if="item.is_enabled" class="text-success">啟用</span>
                                         <span v-else class="text-danger">未啟用</span>
                                     </div>
