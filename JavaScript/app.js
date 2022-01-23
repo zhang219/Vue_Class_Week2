@@ -19,7 +19,7 @@ createApp({
                     //expires 設置有效時間
                     document.cookie = `hexToken=${ token }; expires=${ new Date(expired) };`;
                     //somecookie自訂義名稱 = 值，expires是時間格式 用 newDate來做轉型
-                    window.location = 'products.html';
+                    window.location = 'product.html';
                 })
                 .catch((error) => {
                     alert(error.response.data.message);
