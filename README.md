@@ -2,15 +2,14 @@
 Vue_Class_Week2
 Demo：https://zhang219.github.io/Vue_Class_Week2_HW/
 
-筆記：
+## 筆記：
 新增產品可以至課程測試API新增資料
 
-git指令
+## git指令：
 
-通常會有一個master/main專案
-也可能會有其他分支 ex: develop(原始碼)
+通常會有一個master/main專案，也可能會有其他分支 ex: develop(原始碼)
 
-如何建立github pages
+## 如何建立github pages
 
 0.建立一個檔案
 
